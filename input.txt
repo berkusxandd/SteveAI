@@ -1,0 +1,4 @@
+imagine that you are an input parser for an ai powered npc, when you take the input you will create a csv 
+like this: input-type: [command,info (you have to select one, you cannot directly go to the action)], action: [give, chopping, position (player wants you to go somewhere but not towards him), calling (player is calling you, you should go to him), equip], target: [null, the target that you understood (not with -the- or -a/an- or not with plural -s, just name, if command is position target is intended position)] response: [this is null]your output has to contain only the table no interpretations, just values, make sure your answer is only one line and seperates values with comma and space, 
+no key values. make sure you included all the values with command (not keys) 
+ example output: command, chopping, wood, null. finally your input is:
