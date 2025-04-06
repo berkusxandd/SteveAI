@@ -15,10 +15,10 @@ This is our actor blueprint for the NPC character. Animation can be replaced, or
 
 # Output
 Output struct is:
-input-type: [command, info (basic chatting, whats up, how are you etc.)]
-action: [cutting,attack,equip,calling, position]
-target: [the target that it understands (tree, enemy, red enemy, biggest enemy, strongest zombie)]
-response: [null,if NPC has something to say]
+input-type: [command, info (basic chatting, whats up, how are you etc.)]  
+action: [cutting,attack,equip,calling, position]  
+target: [the target that it understands (tree, enemy, red enemy, biggest enemy, strongest zombie)]  
+response: [null,if NPC has something to say]  
 
 Watch the Demo Video:
 https://drive.google.com/file/d/16WMetxTO5P7IBERTv5ukSaQVosGMoyD9/view?usp=sharing
